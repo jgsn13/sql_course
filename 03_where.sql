@@ -1,20 +1,20 @@
 -- WHERE
--- Útil quando queremos extrair apenas alguns dados de uma tabela
-SELECT coluna1,coluna2,coluna_n
-FROM tabela
-WHERE condicao
+-- Useful whenever we want to return filtered data:
+SELECT column1,column2,column_n
+FROM someTable
+WHERE condition
 
 /*
-Para determinar uma condição, vamos usar os seguintes operadores:
+Operetors are used to give conditions:
 
-OPERADOR   -   DESCRIÇÂO
-=               Igual
->               Maior que
-<               Menor que
->=              Maior ou igual que
-<=              Menor ou igual que
-<>              Diferente de
-AND             E
-OR              Ou
+OPERATOR   -   DESCRIPTION
+=               Equal to
+>               Greater than
+<               Less than
+>=              Greater than or equal to
+<=              Less than or equal to
+<>              Different than
+AND             And
+OR              Or
 
 */

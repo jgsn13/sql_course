@@ -1,9 +1,8 @@
 -- SELECT
--- Funciona com todos os SQLs
 -- Sintaxe:
-SELECT coluna1,coluna2
-FROM tabela
+SELECT column1,column2
+FROM someTable
 
--- Retornar todas as colunas:
+-- Return all columns:
 SELECT *
-FROM tabela
+FROM someTable
